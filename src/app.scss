@@ -1,0 +1,225 @@
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+.wallet-addr {
+  color: gray;
+  font-weight: 500 !important;
+}
+.wallet-bal {
+  font-weight: 700 !important;
+  margin-bottom: -7px;
+  font-size: 14px;
+}
+.dot-icon {
+  height: 10px !important;
+  width: 10px !important;
+  margin-left: 5px !important;
+  color: lightgreen;
+}
+.trx-wallet-logo {
+  margin-left: 10px;
+}
+
+.nft-collection {
+  padding: 10px;
+  border: 1px solid rgb(226, 222, 222);
+  border-radius: 10px;
+  .col-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 3px;
+  }
+  .col-name {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: rgb(69, 66, 66);
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .items {
+    color: gray;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .col-actions {
+    .exp-btn {
+      width: 20px;
+    }
+  }
+}
+
+.divider {
+  border-color: rgba(66, 66, 66, 0.5) !important;
+}
+.profile-header {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  .prof-avatar {
+    margin-bottom: 20px;
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    .prof-head-btn {
+      margin-left: 10px;
+    }
+  }
+}
+
+.layout-body {
+  padding-top: 20px;
+  height: 100%;
+}
+
+.spacer {
+  flex: 1 auto;
+}
+
+.toolbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.collection-header {
+  margin-top: 50px;
+  .col-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
+    margin-bottom: 24px;
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    .prof-head-btn {
+      margin-left: 10px;
+    }
+  }
+  .meta {
+    font-size: 0.8em;
+    .copy-icon {
+      font-size: 0.8em !important;
+    }
+  }
+  .description {
+    font-size: 0.9em;
+  }
+}
+.home-page {
+  overflow-y: hidden !important;
+  h1 {
+    color: gray;
+  }
+}
+
+.new-nft-cont {
+  padding: 16px;
+  .header {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: grey;
+  }
+  .txt {
+    margin-bottom: 16px;
+  }
+  .label {
+    font-weight: 700;
+    font-size: large;
+  }
+  .err {
+    color: red;
+    margin-top: -10px;
+    font-size: 0.8em;
+  }
+}
+
+.divider1 {
+  border-color: rgb(66, 66, 66, 0.5) !important;
+  margin-bottom: 30px !important;
+}
+
+.pinata {
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 24px;
+  img {
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.deploy-review {
+  min-height: 500px;
+}
+
+.col-overview {
+  .funds-paper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    .funds {
+      height: 130px;
+      width: 130px !important;
+      background-color: rgb(236, 236, 236);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      .funds-icon{
+        font-size: 2em;
+        color: rgb(81, 78, 78);
+      }
+    }
+    .funds-bal{
+        margin-left: 24px;
+        font-weight: 900;
+        font-size: 1.6em;
+        color: grey;
+        margin-bottom: -20px;
+        span{
+            color: black
+        };
+        width: 100%;
+    }
+    .funds-meta{
+        margin-left: 24px;
+        color: grey;
+        font-size: 0.4em;
+    }
+    .funds-btn{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end !important;
+      padding-right: 24px;
+    }
+  }
+}
+
+.MuiTextField-root{
+  width: 100% !important;
+}
+
+.date-picker{
+  margin-bottom: 16px;
+}

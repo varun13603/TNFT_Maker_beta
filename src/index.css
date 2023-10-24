@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body,html{
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+  height: 100%;
+}
+
+.modal-header{
+  border-bottom: none;
+}
+.modal-footer{
+  border-top: none;
+  justify-content: center;
+}
+.modal-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  color: black
+}
+.modal-body p{
+  color: black;
+  margin: 0px;
+  margin-top: 20px;
+
+}
+
+.modal-body a{
+  color: #7e2977;
+  font-weight: 600;
+}
+.modal-body img {
+  width: 100px;
+}
+.modal-body h2{
+  color: black;
+  margin-top: 20px;
+}
+
+.modal-footer button{
+ 
+  margin-bottom: 10px;
+  width: 110px;
+  padding: 8px;
+  font-weight: 500;
+  margin: 10px 8px;
+}
